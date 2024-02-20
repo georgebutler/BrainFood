@@ -1,0 +1,51 @@
+[
+    {
+        "model": "pantries.category",
+        "pk": 1,
+        "fields": {
+            "name": "Vegetables"
+        }
+    },
+    {
+        "model": "pantries.category",
+        "pk": 2,
+        "fields": {
+            "name": "Fruits"
+        }
+    },
+    {
+        "model": "pantries.category",
+        "pk": 3,
+        "fields": {
+            "name": "Grains"
+        }
+    },
+    {
+        "model": "pantries.category",
+        "pk": 4,
+        "fields": {
+            "name": "Dairy"
+        }
+    },
+    {
+        "model": "pantries.category",
+        "pk": 5,
+        "fields": {
+            "name": "Proteins"
+        }
+    },
+    {
+        "model": "pantries.category",
+        "pk": 6,
+        "fields": {
+            "name": "Fats, Oils, and Sweets"
+        }
+    },
+    {
+        "model": "pantries.category",
+        "pk": 7,
+        "fields": {
+            "name": "Other"
+        }
+    }
+]
