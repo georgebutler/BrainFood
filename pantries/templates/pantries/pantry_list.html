@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Pantries{% endblock %}
+
+{% block content %}
+    <h1>Pantries</h1>
+    <ul>
+        {% for pantry in pantries %}
+            <li>
+                <a href="{% url 'pantry-view' forloop.counter %}">{{ pantry }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

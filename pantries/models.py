@@ -55,7 +55,7 @@ class Pantry(models.Model):
         ordering = ["-timestamp"]
 
     def __str__(self):
-        return self.user + "'s + " + self.name
+        return self.user.username + "'s " + self.name
 
 class PantryItem(models.Model):
     pantry = models.ForeignKey(Pantry, on_delete=models.CASCADE)

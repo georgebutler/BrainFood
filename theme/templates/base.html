@@ -1,0 +1,32 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{% block title %}{% endblock %} - Brainfood</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		{% tailwind_preload_css %}
+		{% tailwind_css %}
+	</head>
+
+	<body class="bg-white text-black font-sans leading-normal tracking-normal">
+		<header>
+			<!-- Your header content here -->
+		</header>
+	
+		<nav>
+			<!-- Your navigation here -->
+		</nav>
+	
+		<main>
+			<div class="container mx-auto">
+				{% block content %}
+				{% endblock %}
+		</main>
+	
+		<footer>
+			<!-- Your footer content here -->
+		</footer>
+	</body>
+</html>
